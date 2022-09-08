@@ -1,0 +1,27 @@
+34
+100
+1000
+1.
+0.
+1
+2.0
+0.6
+0.05
+0.05
+0.05
+0.05
+
+   ReadInput >> ncity;  
+   ReadInput >> nindivdual;
+   ReadInput >> ngen;
+   ReadInput >> xstart_city; 
+   ReadInput >> ystart_city;
+   ReadInput >> circle_or_square;
+   ReadInput >> peso;
+   ReadInput >> prob_crossover;
+   ReadInput >> prob_gen_mut1;
+   ReadInput >> prob_gen_mut2;
+   ReadInput >> prob_gen_mut3;
+   ReadInput >> prob_gen_mut4;
+
+   

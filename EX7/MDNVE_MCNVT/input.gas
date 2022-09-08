@@ -1,0 +1,25 @@
+0/1
+0/1
+0/1
+1.2
+108
+0.05
+5.0
+0.0005/0.2
+20
+2000
+100
+gas
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> iEQ; 0=Real Measure 1=Equilibration Measure
+  ReadInput >> temp;
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> delta;
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> nbins; 
+  ReadInput >> phase;

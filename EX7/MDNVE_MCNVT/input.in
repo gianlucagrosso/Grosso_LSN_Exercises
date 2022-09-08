@@ -1,0 +1,26 @@
+1
+0
+0
+0.8
+108
+1.1
+2.2
+0.12
+100
+2000
+100
+solid
+
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> iEQ; 0=Real Measure 1=Equilibration 
+  ReadInput >> temp;
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> delta;
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> nbins;   bins for g(r) representation 
+  ReadInput >> phase;    solid , liquid, gas

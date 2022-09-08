@@ -1,0 +1,14 @@
+CC = g++
+CFLAGS = -Wall -O3 --std=c++11
+
+main.exe : main.o random.o chisquared.o
+	$(CC) chisquared.o random.o main.o -o main.exe
+main.o : main.cpp 
+	$(CC) -c main.cpp -o main.o $(CFLAGS)
+random.o : random.cpp random.h
+	$(CC) -c random.cpp -o random.o $(CFLAGS)
+chisquared.o : chisquared.cpp chisquared.h 
+	$(CC) -c chisquared.cpp -o chisquared.o $(CFLAGS)
+
+clean :
+	rm *.o main.exe seed.out chisquared.txt nsubint.txt

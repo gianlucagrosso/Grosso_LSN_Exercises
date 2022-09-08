@@ -1,0 +1,21 @@
+0.7
+50
+1.0
+0.0
+0
+0
+0
+300
+800
+50
+
+  ReadInput >> temp;
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h;
+  ReadInput >> metro;    1 = Metropolis    0 = Gibbs
+  ReadInput >> restart;  1 = Restarting   0 = Not Restarting
+  ReadInput >> measure;  1 = Measure      0 = Equilibration
+  ReadInput >> nequi;   //Equilibration steps for Measure
+  ReadInput >> nblk;
+  ReadInput >> nstep; //step for each block (1 Ising step = 50 spin flip = 50 MC nstep)
