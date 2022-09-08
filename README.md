@@ -1,7 +1,7 @@
 In this repository there are the exercises made during the Numerical Simulation Laboratory.
 Every folder has a READ_ME file with informations about compilation and execution of the resepective program.
 
-Lezione N = Lecture N
+EXN = Lecture N
 
 -Lecture 1: Pseudo random numbers, generalized central limit theorem, Buffon experiment simulation
 
